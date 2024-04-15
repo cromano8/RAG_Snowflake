@@ -1,0 +1,13 @@
+name: RAG_DEMO
+channels:
+  - https://repo.anaconda.com/pkgs/snowflake
+dependencies:
+  - python=3.10
+  - snowflake-snowpark-python[pandas]
+  - scikit-learn
+  - PyPDF2
+  - ipykernel
+  - langchain
+  - pycryptodome
+  - pip:
+      - snowflake-ml-python
