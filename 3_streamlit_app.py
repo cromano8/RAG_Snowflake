@@ -1,7 +1,6 @@
 import streamlit as st
 from snowflake.snowpark.context import get_active_session
 from snowflake.snowpark.functions import builtin, call_builtin
-from snowflake.cortex import Complete
 from textwrap import dedent
 if 'prompt_history' not in st.session_state:
     st.session_state['prompt_history'] = []
