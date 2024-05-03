@@ -1,8 +1,14 @@
 # End to End RAG Pipeline
 ## End to End RAG Pipeline Using Cortex and Streamlit
 
+### Precheck (If you have access to Snowflake Notebooks)
+1. Create a stage to store the PDFs
+2. Either load the pdfs via the UI or run the cells in 1_rag.ipynb that load the files via Snowpark
+3. Go to projects, notebooks, and upload 4_rag_sf_notebook.ipynb
+4. In the packages drop down add in the packages from the environment.yml file
+5. Run the notebook!
 
-### Precheck
+### Precheck (If running from Visual Studio Code
 1. Utilize the `environment.yml` file to set up your Python environment for the demo:
     - Examples in the terminal:
         - `conda env create -f environment.yml`
@@ -15,7 +21,7 @@
     SNOWFLAKE_PASSWORD = your_password
     SNOWFLAKE_ROLE = your_role
     SNOWFLAKE_WAREHOUSE = warehouse_name
-    SNOWFLAKE_DATABASE = databse_name
+    SNOWFLAKE_DATABASE = database_name
     SNOWFLAKE_SCHEMA = schema_name
     ```
 
