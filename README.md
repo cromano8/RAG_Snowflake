@@ -3,7 +3,7 @@
 
 ### Precheck (If you have access to Snowflake Notebooks)
 1. Create a stage to store the PDFs (Demo uses a stage called RAG)
-2. Either load the pdfs via the UI
+2. Load the pdfs via the UI
 3. Go to projects, notebooks, and upload 4_rag_sf_notebook.ipynb
 4. In the packages drop down add in the packages from the environment.yml file
 5. Run the notebook!
