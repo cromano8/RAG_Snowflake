@@ -2,7 +2,7 @@
 ## End to End RAG Pipeline Using Cortex and Streamlit
 
 ### Precheck (If you have access to Snowflake Notebooks)
-1. Create a stage to store the PDFs
+1. Create a stage to store the PDFs (Demo uses a stage called RAG)
 2. Either load the pdfs via the UI or run the cells in 1_rag.ipynb that load the files via Snowpark
 3. Go to projects, notebooks, and upload 4_rag_sf_notebook.ipynb
 4. In the packages drop down add in the packages from the environment.yml file
